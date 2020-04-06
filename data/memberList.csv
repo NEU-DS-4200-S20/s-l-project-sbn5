@@ -1,4 +1,4 @@
-Please select Member Type,Name of Business or Organization,Food (Yes/No),Product or Service,Address (City),Address (State),City+State,Address (Zip),Business Phone,Business/Organization Website,
+memberType,businessName,foodYN,productOrService,city,state,cityState,zip,phone,website
 Business/Non-Profit,Affordable Green Movers,No,Storage,Framingham,MA,"Framingham, MA",1702,(508) 596-8751,www.affordablegreenmovers.com,
 Business/Non-Profit,Akinto Travel Water,Yes,Beverages,Boston,MA,"Boston, MA",,,travelh2o.com,
 Business/Non-Profit,"American vinegar Works, LLC",Yes,Condiments,Lowell,MA,"Lowell, MA",,,www.americanvinegarworks.com/,
