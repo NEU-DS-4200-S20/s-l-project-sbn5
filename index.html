@@ -4,13 +4,13 @@
 <!-- Metadata -->
 <head>
   <meta charset="utf-8">
-  
+
   <!-- Title -->
   <title>Project Team #SBN5: Distribution of Products/Services of Members, DS 4200 S20</title>
-  
+
   <!-- CSS Styling -->
   <link rel="stylesheet" href="style.css">
- 
+
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -27,56 +27,55 @@
 
   <!-- Update this with your GitHub repo URL -->
   <span id="forkongithub"><a href="https://github.com/NEU-DS-4200-S20/s-l-project-sbn5">Fork me on GitHub</a></span>
-  
+
   <!-- Your writeup goes here -->
   <div class = "content-column">
-  
+
     <h1>Project Team ##SBN5: Distribution of Products/Services of Members: Topic, DS 4200 S20</h1>
-    
+
     <p><strong>Megha Rao</strong>, <strong>Coleen Ross</strong>, <strong>Omkar Brahme</strong>, <strong>Snowy Chen</strong></p>
-    
+
     <p>Service-Learning Course Project as part of <a href="https://canvas.instructure.com/courses/1781714">DS 4200: Information Presentation and Visualization</a>, taught by <a href="https://www.eecs.tufts.edu/~dcashm01/">Prof. Dylan Cashman</a>, <a href="https://visualization.khoury.northeastern.edu/">Data Visualization @ Khoury</a>, <a href="https://www.khoury.northeastern.edu/">Northeastern University</a>.</p>
-    
-    
+
+
     <h1>Motivation</h1>
-    
+
     <p><em>SBN's core missions is to build a community that can support a culture of sustainability and local food. There are many organizations that care about local food, but it can be difficult for them to know that they have many other similar-minded organizations nearby.
     </em></p>
 
     <p>
       <em>SBN has a member directory containing information about all buyers, vendors, and other organizations.  They wanted to build a visualization that will go into marketing materials and on their website to communicate the scope of their work and to connect members of the local food community.</em>
     </p>
-    
+
     <p><em>Expectation: SBN's existing database was not a pretty sight, and they did not find it visually appealing enough to display on their website. They wanted a visualization that would target business who were interested in joining the network and seeing who else is involved. What they were specifically looking for was a list + visualization to represent all the existing businesses in the network. </em></p>
 
-    
+
     <h1>Visualization</h1>
-    
+
     <p><em>Include the interactive visualization as part of this page. Static example follows.</em></p>
-    
-  </div>
-  
-  <!-- Your visualization here -->
-  <div class="vis-holder">
-    <!-- Change viewbox to whatever you want, e.g. "0 0 1000 6000" This determines your aspect ratio and coordinate system -->    
-    <!-- Delete all the sample SVG code below after the viewbox to before the closing tag. Populate this part of the SVG with D3. -->
-    <svg id="vis-svg"
-      preserveAspectRatio="xMidYMid meet" class="marks" viewBox="0 0 821 520" 
-    <!-- Don't delete the closing tag! -->
-    </svg>
-    <div class="table-holder" id="table">
-    </div>
+
   </div>
 
-  
-  
+  <!-- Your visualization here -->
+  <div class="vis-holder">
+    <!-- Change viewbox to whatever you want, e.g. "0 0 1000 6000" This determines your aspect ratio and coordinate system -->
+    <!-- Delete all the sample SVG code below after the viewbox to before the closing tag. Populate this part of the SVG with D3. -->
+    <svg id="vis-svg"
+      preserveAspectRatio="xMidYMid meet" class="marks" viewBox="0 0 821 520">
+
+    <!-- Don't delete the closing tag! -->
+    </svg>
+  </div>
+
+
+
   <!-- Your writeup goes here -->
   <div class = "content-column">
 
     <h1>Demo Video</h1>
-    
+
     <p><em>TODO: Attach our video here</em></p>
-    
+
     <video controls width="100%">
       <source src="http://www.ccs.neu.edu/home/cody/courses/shared/d3-flexible-transitions.mp4" type="video/mp4">
       <p>Your browser doesn't support HTML5 video. Here is
@@ -84,13 +83,16 @@
     </video>
 
     <h1>Visualization explanation</h1>
-    
+
     <p><em>Final visualization screenshots (PNG images), design justifications, UI walk-through, and linked presentation slides.</em></p>
+    <p>One of SBN's core missions is to build a community that can support a culture of sustainability and shopping local. To do this, SBN has a member directory containing information about all buyers, vendors, and other organizations, but they do not have an easy way to look all of their members, especially in regards to their specialty and location.</p>
+    <p>For our project, we decided to create a visualization that allows viewers to see not only where members are located and what their focus is, but also allows for customization of what they would like to see (filtering by any mix of SBN member attributes). </p>
 
     <h1>Data Analysis</h1>
     <p><em>Summary of data, data types, and data preprocessing.</em></p>
-
     <p><em>Expectation: Data sources match the problem statement and are appropriate. These descriptions should be very explicit so someone could read your page and properly reproduce your results.</em></p>
+    <h3>Data Preprocessing</h3>
+    <p>The dataset we were given had the information for a little over 100 members. To make the data useable, we had to clean it up and properly categorize each member organization. This required us to research any gaps in the data (for example, organizations that did not have an address/location in the dataset), as well as to categorize each member based on what they sell or are focused on (catering, beverages, consulting, green energy, etc.)</p>
 
     <h1>Task Analysis</h1>
 
@@ -99,7 +101,7 @@
     <p><em>Expectation: Clearly describes domain tasks, processes, goals and abstract tasks for domain problems.</em></p>
 
     <h1>Design Process</h1>
-    
+
     <p><em>Sketches and design choices to justify final visualization.</em></p>
 
     <p><em>Expectation: Evidence of iterative improvement.
@@ -112,22 +114,22 @@
     <p><em>In conclusion, our visualization represents the existing businesses registered with SBN through a map + table through brushing and linking. In the future, instead of a table, linking it to a bar graph could be more visually appealing.
 
     </em></p>
-    
+
     <p><em>Expectation: Meaningfully wraps up project and has good future directions.</em></p>
 
-    
+
     <h1>Acknowledgments</h1>
 
     <p><em>Listed here are any code, packages/libraries, text, images, designs, etc. that we leveraged come from.</em></p>
-    
+
     <ul>
       <li><a href="https://d3js.org/">D3: Data-Driven Documents</a> by Mike Bostock.</li>
       <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/#">Pure CSS responsive "Fork me on GitHub" ribbon</a> by Chris Heilmann.</li>
       <li>Existing code from previous assignments </li>
     </ul>
-    
+
   </div>
-  
+
   <!-- Scripts at the end avoid need for dealing with async, defer, or onload event handlers -->
   <script src="lib/d3.v4/d3.v4.js"></script>
   <script src="js/visualization.js"></script>
