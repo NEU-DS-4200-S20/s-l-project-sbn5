@@ -49,7 +49,7 @@ function table() {
         cells = rows
             .selectAll("td")
             .data(function(d) {
-                return[d.memberType, d.businessName, d.foodYN, d.productOrService, d.city, d.state, d.cityState, d.zip, d.phone, d.website];
+                return[d["Member Type"], d["Business Name"], d["Food (Yes or No)"], d["Product or Service"], d["City"], d["State"], d["Zip"], d["Phone Number"], d["Website"]];
             })
             .enter()
             .append("td")
