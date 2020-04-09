@@ -49,17 +49,17 @@ table {
 
 
 /* For when brushing is happening but not completed */
-.zips.selected {
+.cities.selected {
 	fill: #aad1e3;
 }
 
 /* For when brushing is done and a selection is made */
-.zips.final {
+.cities.final {
 	fill: #377d61;
 }
 
 /* General styling for zips that have a vendor */
-.zips {
+.cities {
 	fill: #374a7d;
 	stroke:#4d4d4d;
 	stroke-width: 1 px;

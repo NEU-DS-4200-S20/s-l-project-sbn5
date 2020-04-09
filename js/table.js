@@ -33,11 +33,8 @@ function table() {
                 return d;
             });
   
-      // Then, you add a row for each row of the data.  Within each row, you
+      // Add a row for each row of the data.  Within each row, 
       // add a cell for each piece of data in the row.
-      // HINTS: For each piece of data, you should add a table row.
-      // Then, for each table row, you add a table cell.  You can do this with
-      // two different calls to enter() and data(), or with two different loops.
   
       let tablebody = table.append("tbody");
         rows = tablebody
@@ -49,7 +46,7 @@ function table() {
         cells = rows
             .selectAll("td")
             .data(function(d) {
-                return[d["Member Type"], d["Business Name"], d["Food (Yes or No)"], d["Product or Service"], d["City"], d["State"], d["Zip"], d["Phone Number"], d["Website"]];
+                return[d["Business Name"], d["Product or Service"], d["City"], d["State"], d["Phone Number"], d["Website"]];
             })
             .enter()
             .append("td")
