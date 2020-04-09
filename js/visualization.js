@@ -4,7 +4,7 @@
 
   // Load the data from a json file (you can make these using
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding "")
-  d3.json("data/memberList1.json", (data) => {
+  d3.json("data/memberList.json", (data) => {
 
     const dispatchString = "selectionUpdated";
 
