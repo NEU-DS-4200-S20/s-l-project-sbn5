@@ -2,1314 +2,1112 @@
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Affordable Green Movers",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Storage",
    "City": "Framingham",
    "State": "MA",
    "Zip": 1702,
    "Phone Number": "(508) 596-8751",
    "Website": "www.affordablegreenmovers.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Akinto Travel Water",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "travelh2o.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "American vinegar Works, LLC",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Lowell",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "www.americanvinegarworks.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "B-Organic",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Storage",
    "City": "Worcester",
    "State": "MA",
    "Zip": null,
    "Phone Number": "508-545-4115",
    "Website": "b-organicma.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Balanced Rock Advisors",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Roslindale",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 971-8323",
    "Website": "balancedrockinvestmentadvisors.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Basil Tree Catering",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Cambridge",
    "State": "MA",
    "Zip": 2138,
    "Phone Number": "(617) 776-9100",
    "Website": "www.basiltree.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "BeReal Doughs",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Desert",
    "City": "Yarmouth Port",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(508) 737-5379",
    "Website": "berealdoughs.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Berkshire Natural",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Snacks",
    "City": "Lenox",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(413) 270-1234",
    "Website": "www.BErkshireNATURAL.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "BOLA granola",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Snacks",
    "City": "Barrington",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(413) 528-4745",
    "Website": "www.bolagranola.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Boston Organics",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Charlestown",
    "State": "MA",
    "Zip": 2129,
    "Phone Number": "(617) 242.1700",
    "Website": "bostonorganics.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Boston Solar",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Green Energy",
    "City": "Woburn",
    "State": "MA",
    "Zip": 1801,
    "Phone Number": "617-390-8792",
    "Website": "www.bostonsolar.us/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "BoxSave",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Storage",
    "City": "Woburn",
    "State": "MA",
    "Zip": 1801,
    "Phone Number": "(866) 426-9728",
    "Website": "www.boxsave.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Cabot Creamery Co-operative",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Waitsfield",
    "State": "VT",
    "Zip": null,
    "Phone Number": "(888) 792-2268",
    "Website": "www.cabotcheese.coop"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Cambridge Common (Flying Toad Inc.)",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Cambridge",
    "State": "MA",
    "Zip": 2138,
    "Phone Number": "617-547-1228",
    "Website": "cambridgecommonrestaurant.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Cape Ann Fresh Foods",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Gloucester",
    "State": "MA",
    "Zip": 1930,
    "Phone Number": "(978) 283-2504",
    "Website": "www.capeannfreshcatch.org"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Cape Cod Coffee",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Mashpee",
    "State": "MA",
    "Zip": 2649,
    "Phone Number": "(508) 477-2400",
    "Website": "capecodcoffee.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Capital Management Partners, LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal and Consulting",
    "City": "Peabody",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(978) 535-8989",
    "Website": "www.cmpadvisors.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Chrisopher's (Flying Toad Inc.)",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Cambridge",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 876-9180",
    "Website": "www.christopherscambridge.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "City Fresh Foods",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Roxbury",
    "State": "MA",
    "Zip": 2119,
    "Phone Number": "(617) 606-7123",
    "Website": "cityfresh.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Copper Kettle Bakery",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Baking Goods",
    "City": "Westwood",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 448-6400",
    "Website": "https://copperkettlebakery.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Costa Fruit and Produce",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 241-8007",
    "Website": "http://www.freshideas.com/index2.html"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Curio Spice Company",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Somerville",
    "State": "MA",
    "Zip": 2144,
    "Phone Number": "(617) 851-3056",
    "Website": "http://www.curiospice.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Del Sur",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Roslindale",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "http://www.shareataste.info/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Drysdale's All-Natural Carpet Care",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Other",
    "City": "Peabody",
    "State": "MA",
    "Zip": null,
    "Phone Number": "617-242-9657",
    "Website": "http://www.drysdales123.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Eastern Bank",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(800) 327-8376",
    "Website": "www.easternbank.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "El Recreo",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Roxbury",
    "State": "MA",
    "Zip": 2132,
    "Phone Number": "",
    "Website": "elrecreoestatecoffee.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Evergreen Consulting and Training",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal and Consulting",
    "City": "Cambridge",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "evergreenconsulting.us"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Evergreen Delivery, LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Other",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 285-0826",
    "Website": "https://evergreendelivery.bike/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Forklift Catering",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering",
    "City": "Brookline",
    "State": "MA",
    "Zip": 2446,
    "Phone Number": "(617) 776-7600",
    "Website": "https://forkliftcatering.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Fresh Food Generation",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Dorchester",
    "State": "MA",
    "Zip": 2121,
    "Phone Number": "(617) 817-5001",
    "Website": "www.freshfoodgeneration.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "FreshBox Farms",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Millis",
    "State": "MA",
    "Zip": 2054,
    "Phone Number": "(508) 794-1449",
    "Website": "www.freshboxfarms.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Fungi Ally",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Montague",
    "State": "MA",
    "Zip": null,
    "Phone Number": "978-844-1811",
    "Website": "https://fungially.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Gilded Tomato Company",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Rehoboth",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(508) 336-0123",
    "Website": "www.gildedtomato.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Global Village Cuisine",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "White River Junction",
    "State": "VT",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://globalvillagecuisine.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Good Egg Marketing",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Marketing",
    "City": "Jamaica Plain",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://goodeggmarketing.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Goodnow Farms Chocolate",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Desert",
    "City": "Sudbury",
    "State": "MA",
    "Zip": 1776,
    "Phone Number": "",
    "Website": "https://goodnowfarms.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Goody Clancy",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Architecture and Design",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 262-2760",
    "Website": "https://www.goodyclancy.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Green Crab R&D",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Marketing",
    "City": "North Oxford",
    "State": "ME",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.greencrab.org/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Green Energy Consumers Alliance",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Green Energy",
    "City": "Boston",
    "State": "MA",
    "Zip": 2130,
    "Phone Number": "1-800-287-3950",
    "Website": "https://www.greenenergyconsumers.org/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Habitus Incorporated",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal and Consulting",
    "City": "Somerville",
    "State": "MA",
    "Zip": 2144,
    "Phone Number": "(610) 999-7311",
    "Website": "habitusincorporated.come"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Hiewa Tofu",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Rockport",
    "State": "ME",
    "Zip": null,
    "Phone Number": "(207) 236-8638",
    "Website": "www.heiwatofu.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Happy Goats Farm",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Holliston",
    "State": "MA",
    "Zip": 1746,
    "Phone Number": "(617) 272-0170",
    "Website": "www.happygoatsfarm.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Hosteling International",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Hostels",
    "City": "Boston",
    "State": "MA",
    "Zip": 2116,
    "Phone Number": "(617) 536-9455",
    "Website": "https://www.hiusa.org/hostels/massachusetts/boston/boston"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Indelish",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Wellesley",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(781) 244-4712",
    "Website": "www.indelish.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "In Season Food Shop",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering",
    "City": "Somerville",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.shopinseason.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "In Source Services",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal and Consulting",
    "City": "Wellesley",
    "State": "MA",
    "Zip": 2482,
    "Phone Number": "(781) 235-1490",
    "Website": "https://www.insourceservices.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Iterum Foods",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "315-396-6313",
    "Website": "https://noodlesbyiterum.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Jay's Wicked",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Ware",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "http://www.jayswicked.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Jennifer Lee's Gourmet Bakery",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Boston",
    "State": "MA",
    "Zip": 2110,
    "Phone Number": "(978) 675-5116",
    "Website": "https://www.jenniferleesshoppe.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Kakosi",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Desert",
    "City": "Lynn",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.kakosichocolates.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Kelley Chun & Associates",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal and Consulting",
    "City": "Boston",
    "State": "MA",
    "Zip": 2119,
    "Phone Number": "617-427-0046",
    "Website": "http://www.kelleychunn.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Kitchen Garden Farm",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce, Condiments",
    "City": "Sunderland",
    "State": "MA",
    "Zip": 1375,
    "Phone Number": "(413) 387-5163",
    "Website": "www.kitchengardenfarm.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Kitchen Porch",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering",
    "City": "Chilmark",
    "State": "MA",
    "Zip": 2535,
    "Phone Number": "(508) 645-5000",
    "Website": "www.kitchenporch.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Koy",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Boston",
    "State": "MA",
    "Zip": 2109,
    "Phone Number": "(857) 991-1483",
    "Website": "www.koyboston.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Land Escapes Design Inc.",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Architecture and Design",
    "City": "Arlington",
    "State": "MA",
    "Zip": 2476,
    "Phone Number": "(617) 504-9661",
    "Website": "www.landescapesdesigninc.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Levend Bakery",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.levendbagelry.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Little Acre Gourmet Foods",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Dover",
    "State": "NH",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://littleacregourmet.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "LochTree",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Green Energy",
    "City": "Newton",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 302-6078",
    "Website": "www.lochtree.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Longfellow Tennis & Healthclubs*",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Other",
    "City": "Wayland",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://longfellowhealthclubs.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Massachusetts Health Connector",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Insurance",
    "City": "Boston",
    "State": "MA",
    "Zip": 2114,
    "Phone Number": "(877) 623-6765",
    "Website": "https://www.mahealthconnector.org/business"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Mei Mei",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(857) 250-4959",
    "Website": "https://www.meimeiboston.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Mike Albert Fleet Solutions",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Technology",
    "City": "Cincinnati",
    "State": "OH",
    "Zip": null,
    "Phone Number": "(617) 893-3988",
    "Website": "https://www.mikealbert.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "MOJO Cold Brewed Coffee, Inc. ",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Wenham",
    "State": "MA",
    "Zip": 1984,
    "Phone Number": "(978) 270-3838",
    "Website": "www.mojocoffees.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Morgan, Brown & Joy, LLP*",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal",
    "City": "Boston",
    "State": "MA",
    "Zip": 2109,
    "Phone Number": "(617) 523-6666",
    "Website": "http://morganbrown.com/home/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Natixis Investment Managers",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Boston",
    "State": "MA",
    "Zip": 2199,
    "Phone Number": "(617) 449-2100",
    "Website": "https://www.im.natixis.com/us/home"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Natural Systems Utilities",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Green Energy",
    "City": "Hillsborough",
    "State": "NJ",
    "Zip": null,
    "Phone Number": "(908) 359-5501",
    "Website": "https://www.nsuwater.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Nit Wits LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Other",
    "City": "Belmont",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 816-9487",
    "Website": "https://www.liceinfo.net/"
-},
+ },
  {
    "Member Type": "Sponsoring Member",
    "Business Name": "NotStarve Kitchen Incubator*",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "",
    "City": "Woburn",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 943-5715",
    "Website": "www.notstarve.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Our Family Farms",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Greenfield",
    "State": "MA",
    "Zip": 1302,
    "Phone Number": "(413) 772-2332",
    "Website": "www.OurFamilyFarms.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Ozioli's Italian Cookie Company",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Desert",
    "City": "East Falmouth",
    "State": "MA",
    "Zip": 2536,
    "Phone Number": "(508) 801-4669",
    "Website": "www.Ozioliscookies.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Progressive Investor's Network, LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Wellesley",
    "State": "MA",
    "Zip": 2481,
    "Phone Number": "(781) 239-1187",
    "Website": "www.pinboston.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Pricklee",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Cambridge",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://pricklee.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Pythia Capital LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(347) 837-4899",
    "Website": "www.pythiacap.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Real Pickles",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Snacks",
    "City": "Greenfield",
    "State": "MA",
    "Zip": 1301,
    "Phone Number": "(413) 774-2600",
    "Website": "www.realpickles.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Red Apple Farm",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Phillipston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(800) 628-4851",
    "Website": "http://redapplefarm.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Reinventure Capital",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Boston",
    "State": "MA",
    "Zip": 2130,
    "Phone Number": "(617) 480-2644",
    "Website": "www.reinventurecapital.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Row 34/Oyster Creek Bar",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering ",
    "City": "Boston",
    "State": "MA",
    "Zip": 2215,
    "Phone Number": "(617) 519-9273",
    "Website": "www.row34.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Seaview Farm",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Meat, Fresh Organic Produce",
    "City": "Rockport",
    "State": "MA",
    "Zip": 1966,
    "Phone Number": "(904) 753-0342",
    "Website": "seaviewfarmrockport.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Seven Hills Pasta",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering",
    "City": "Melrose",
    "State": "MA",
    "Zip": 2176,
    "Phone Number": "",
    "Website": "https://www.sevenhillspasta.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Social(k)",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Finance and Investment",
    "City": "Springfield",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://socialk.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Somerville Sustainable Cleaning, LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Cleaning",
    "City": "Boston",
    "State": "MA",
    "Zip": 2129,
    "Phone Number": "(17) 547-0450",
    "Website": "http://somervillecleaning.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Sugar Bob's Finest Kind",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Rutland",
    "State": "VT",
    "Zip": 5701,
    "Phone Number": "(802) 297-7665",
    "Website": "https://www.sugarbobsfinestkind.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Sugar Coated Heaven",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": ""
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Sustainable Food Solutions Inc",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Snacks",
    "City": "",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.facebook.com/pg/Sustainable-Food-Solutions-206180773488904/posts/?ref=page_internal"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Tamim Teas",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Beverages",
    "City": "Boston",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.tamimteas.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Tanuk Inc",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Newton",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.mealmantra.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Tasting Counter",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Catering",
    "City": "Somerville",
    "State": "MA",
    "Zip": 2143,
    "Phone Number": "(617) 299-6362",
    "Website": "https://tastingcounter.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Taza Chocolate",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Snacks",
    "City": "Somerville",
    "State": "MA",
    "Zip": 2143,
    "Phone Number": "(617) 623-0804",
    "Website": "https://www.tazachocolate.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Tech Networks of Boston",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Technology",
    "City": "South Boston",
    "State": "MA",
    "Zip": 2127,
    "Phone Number": "(617) 269-0299",
    "Website": "https://techboston.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Tel-Affinity",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Legal and Consulting",
    "City": "Needham",
    "State": "MA",
    "Zip": null,
    "Phone Number": "888.419.6722",
    "Website": "https://www.tel-affinity.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "The Best Bees Company",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Condiments",
    "City": "Boston",
    "State": "MA",
    "Zip": 2119,
    "Phone Number": "(617) 445-2322",
    "Website": "www.bestbees.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "The Food Loft",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Architecture and Design",
    "City": "Boston",
    "State": "MA",
    "Zip": 2118,
    "Phone Number": "(617) 423-5803",
    "Website": "http://www.thefoodloft.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "The Local Scoop",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Desert",
    "City": "Cape Cod",
    "State": "MA",
    "Zip": null,
    "Phone Number": "508-255-0101",
    "Website": "https://www.thelocalscoopcapecod.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Thistle's All Natural LLC",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Loudon",
    "State": "NH",
    "Zip": null,
    "Phone Number": "(603) 370-9009",
    "Website": "thistlesallnatural.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "ThreeMain, LLC",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Cleaning",
    "City": "Boston",
    "State": "MA",
    "Zip": 2135,
    "Phone Number": "",
    "Website": "https://www.threemain.com/?sscid=11k4_o461j&utm_source=SAS&utm_medium=1358895&utm_campaign=1151207&afsrc=1"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "TOAD (Flying Toad Inc.)",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Catering",
    "City": "Cambridge",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://toadcambridge.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "TRUX Inc.",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Architecture and Design",
    "City": "Waltham",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 616-2003",
    "Website": "www.truxnow.com"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Uprise Foods",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Fresh Organic Produce",
    "City": "Brookline",
    "State": "MA",
    "Zip": null,
    "Phone Number": "",
    "Website": "https://www.uprisefoods.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Viv Web Solutions",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Technology",
    "City": "Boston",
    "State": "MA",
    "Zip": 2108,
    "Phone Number": "",
    "Website": "https://vivwebsolutions.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Walker Farm at Whortleberry Hill",
-   "Food (Yes": {
-      "No)": "Yes"
-   },
+   "Food (Yes or No)": "Yes",
    "Product or Service": "Meat",
    "City": "Braintree",
    "State": "MA",
    "Zip": 1531,
    "Phone Number": "(508) 317-2790",
    "Website": "http://walkergrassfed.com/"
-},
+ },
  {
    "Member Type": "Business/Non-Profit",
    "Business Name": "Williams Agency",
-   "Food (Yes": {
-      "No)": "No"
-   },
+   "Food (Yes or No)": "No",
    "Product or Service": "Marketing",
    "City": "Cambridge",
    "State": "MA",
    "Zip": null,
    "Phone Number": "(617) 395-7680",
    "Website": "http://thewilliamsagency.net/"
-}
+ }
 ]
