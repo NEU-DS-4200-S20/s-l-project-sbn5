@@ -28,7 +28,6 @@ table {
 	/* vertical | horizontal */
 	padding: 0 8px;
   }
-  
 
 /* Your text should be in a nice narrow column */
 .content-column {
@@ -47,6 +46,11 @@ table {
 	flex-wrap: wrap;
 }
 
+.vis-container {
+	display: flex;
+	flex-wrap: wrap;
+  }
+
 /* General styling for cities that have a member */
 .cities {
 	fill: #374a7d;
@@ -55,21 +59,16 @@ table {
 }
 
 /* For when brushing is happening but not completed */
-.cities.selected {
+.circle.selected {
 	fill: #aad1e3;
 }
 
-/* For when brushing is done and a selection is made */
-.cities.final {
-	fill: #377d61;
-}
-
-/* General styling for states that have a member */
+/*General styling for states that have a member*/
 .states {
 	fill: #aaa;
-  }
+  } 
   
-  #state-borders {
+#state-borders {
 	fill: none;
 	stroke: #fff;
 	stroke-width: 1.5px;

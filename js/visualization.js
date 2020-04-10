@@ -2,7 +2,7 @@
 // variables and prevent 
 ((() => {
 
-  var width = 960;
+var width = 960;
 var height = 500;
 
 var svg = d3
@@ -21,7 +21,10 @@ var path = d3.geoPath().projection(projection);
 d3.json("us.json", function(us) {
   //Error
   d3.csv("data/cities-visited.csv", function(cities) {
-    drawMap(us, cities);
+    d3.csv("data/statesvisited.csv", function(statesVisited) {
+        drawMap(us, cities, statesVisited);
+        drawChart(cities);
+    });
   });
 });
 
@@ -69,6 +72,7 @@ function drawMap(us, cities) {
 
   svg.append("g").call(brush);
 }
+
 
 function highlight() {
   if (d3.event.selection === null) return;
