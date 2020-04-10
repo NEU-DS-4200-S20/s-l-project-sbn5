@@ -19,7 +19,7 @@ table {
 	border-collapse: collapse;
 	/* vertical | horizontal */
 	border-spacing: 0 0;
-	text-align: right;
+	text-align: middle;
 	margin: 0 auto;
 
   }
