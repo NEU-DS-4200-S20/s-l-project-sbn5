@@ -15,7 +15,7 @@ table, th, td {
   }
 
 table {
-	font-size: 14px;
+	font-size: 12px;
 	border-collapse: collapse;
 	/* vertical | horizontal */
 	border-spacing: 0 0;
@@ -53,7 +53,7 @@ table {
 
 /* General styling for cities that have a member */
 .cities {
-	fill: #374a7d;
+	fill: #118;
 	stroke:#4d4d4d;
 	stroke-width: 1 px;
 }

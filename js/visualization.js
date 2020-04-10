@@ -73,7 +73,6 @@ function drawMap(us, cities) {
   svg.append("g").call(brush);
 }
 
-
 function highlight() {
   if (d3.event.selection === null) return;
 
@@ -95,35 +94,7 @@ function brushend() {
   console.log("end");
 }
 
-var legend = svg
-  .append("g")
-  .attr("class", "legend")
-  .attr("width", 140)
-  .attr("height", 200)
-  .selectAll("g")
-  .data(["orange", "gray"])
-  .enter()
-  .append("g")
-  .attr("transform", function(d, i) {
-    return "translate(0," + i * 20 + ")";
-  });
 
-legend
-  .append("rect")
-  .attr("width", 18)
-  .attr("height", 18)
-  .style("fill", function(d) {
-    return d;
-  });
-
-legend
-  .append("text")
-  .attr("x", 24)
-  .attr("y", 9)
-  .attr("dy", ".35em")
-  .text(function(d) {
-    return d;
-  });
 
   // Load the data from a json file (you can make these using
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding "")
