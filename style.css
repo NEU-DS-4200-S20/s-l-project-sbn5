@@ -53,13 +53,18 @@ table {
 
 /* General styling for cities that have a member */
 .cities {
-	fill: #118;
+	fill :#118;
 	stroke:#4d4d4d;
 	stroke-width: 1 px;
 }
 
 /* For when brushing is happening but not completed */
-.circle.selected {
+.selected {
+	fill: #aad1e3;
+}
+
+/* For when brushing is done and a selection is made */
+.final {
 	fill: #aad1e3;
 }
 
@@ -69,8 +74,8 @@ table {
   } 
   
 #state-borders {
-	fill: none;
-	stroke: #fff;
+	fill: black;
+	stroke: black;
 	stroke-width: 1.5px;
 	stroke-linejoin: round;
 	stroke-linecap: round;
