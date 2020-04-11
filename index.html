@@ -91,7 +91,11 @@
     <p><em>Final visualization screenshots (PNG images), design justifications, UI walk-through, and linked presentation slides.</em></p>
 
     <p>One of SBN's core missions is to build a community that can support a culture of sustainability and shopping local. To do this, SBN has a member directory containing information about all buyers, vendors, and other organizations, but they do not have an easy way to look all of their members, especially in regards to their specialty and location.</p>
-    <p>For our project, we decided to create a visualization that allows viewers to see not only where members are located and what their focus is, but also allows for customization of what they would like to see (filtering by any mix of SBN member attributes). </p>
+    <p>For our project, we decided to create a visualization that allows viewers to 
+      where members are located and what the products/services offered are.  </p>
+
+    Our map allows for interactability! Simply highlight the cities on the map by clicking and dragging. Move the box around to select different cities at a time.
+    <img src= "images/selection.gif">
 
     <h1>Data Analysis</h1>
     <p><em>Summary of data, data types, and data preprocessing.</em></p>
@@ -109,14 +113,51 @@
 
     <h1>Design Process</h1>
     
-    <p><em>Sketches and design choices to justify final visualization.</em></p>
-    <p> Original sketch: </p>
-    <img src = "originalSketch.png" height = "50" width ="50">
+    <p><b>Original Idea:</b></p>
+    <p>
+      Before we had access to any data, we wanted to make a visualizations of a map that showed the increasing number 
+      of businesses each year as plots points on the map. Given below is an example of the visualization we wanted to base it off of.
+    </p>
+    <img src="images/mapOverTime.gif">
+
+    <p>With time, we realized this would not work for the following reasons:
+      <ul>
+        <li>The dataset provided did not show the month/year the business joined SBN, to show the progress over time.</li>
+        <li>We needed to establish brushing and linking as per project requirements</li>
+      </ul>
+    </p>
+
+    <p>So, this was scratched, and we went back to the drawing board and came up with the following design.</p>
 
 
-    <p><em>Expectation: Evidence of iterative improvement.
-    Logical discussion of design choices grounded in theory from course.
-    Discusses feedback from usability testing.</em></p>
+    <p> <b>Final "interactive" sketch made on Tableau: </b> </p>
+    <img src = "images/ogSketch.png" height = "450" width ="650">
+
+    <p>Our original idea for the map was to not only brush and link between a map and a table, but also allow for more interactability
+      for the user by adding a filter to select by product or service as seen in the screenshot above. The different products/services would be 
+      distinguished by color.
+
+      However, we faced some issues along the way:
+      <ul>
+        <li>Boston had several different businesses with different products/services. The overlapping colors could be confusing to the eye.</li>
+        <li>There were too many categories under products/services, which meant too many unecessary colors on the map.</li>
+        <li>We didn't know how to code that in D3!</li>
+
+        <li>Usability testing proved to be confusing for the teams that tested our visualization. Listed below is their specific feedback for the sketch at the time.</li>
+        <ul>
+          <li>Ensure that zoom feature is enabled to make sure there is no overlap.</li>
+          <li>Get rid of outliers like Ohio and New Jersey, since they are not super relevant to your visualization.</li>
+          <li>If you do keep the differentiation of products or services by color, make sure to use primary colors since many of the colors look similar and can be confusing.</li>
+          <li>Possibly get rid of filter feature completely?</li>
+        </ul>
+        
+      </ul>
+
+      So, we decided to make the decision to simplify our plan and remove the filter + colors features entirely. 
+
+      This resulted in our final visualization, that you can see in our visualization section!
+
+    </p>
 
 
     <h1>Conclusion</h1>

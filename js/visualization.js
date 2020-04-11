@@ -15,8 +15,8 @@ var svg = d3
 
 var projection = d3
   .geoAlbersUsa()
-  .translate([-600, height + 150])
-  .scale(4*width);
+  .translate([-1700, height + 550])
+  .scale(7*width);
 
 var path = d3.geoPath().projection(projection);
 
@@ -24,8 +24,10 @@ d3.json("us.json", function(us) {
   d3.csv("data/cities-visited.csv", function(cities) {
     d3.csv("data/statesvisited.csv", function(statesVisited) {
       d3.tsv("data/us-state-names.tsv", function(stateNames) {
-        //to select only northeast states in the usa 
-        var selectedRegions = [9, 23, 25, 33, 34, 36, 42, 44, 50];  
+        //to select only northeast states in the usa
+        //here ohio and new jersey were omitted as points on the graph, 
+        //even though they appear on the table because they were outliers 
+        var selectedRegions = [23, 25, 33, 50];  
         var mapData = topojson.feature(us, us.objects.states).features.filter((d) => 
         { 
           return selectedRegions.includes(d.id);
@@ -70,6 +72,7 @@ function drawMap(mapData, cities, statesVisited) {
     .enter()
     .append("path")
     .attr("d", path)
+    .attr("id", "state-borders")
     .attr("class", "states");
 
   mapGroup
@@ -93,7 +96,7 @@ function drawMap(mapData, cities, statesVisited) {
     .attr("cy", function(d) {
       return projection([d.lon, d.lat])[1];
     })
-    .attr("r", 8);
+    .attr("r", 2.5);
 
   svg.append("g").call(brush);
 }
@@ -122,6 +125,7 @@ function highlight() {
 // shows that the brushing functionality has 
 // been done and keeps track of the number
 // as an output in the console
+
 function brushend() {
    // get all the cities current selected and make it a final selection
    let selection = d3.selectAll(".selected")
