@@ -2,6 +2,7 @@
 // variables and prevent 
 ((() => {
 
+// set svg height and width
 var width = 960;
 var height = 500;
 
@@ -20,6 +21,7 @@ var projection = d3
 
 var path = d3.geoPath().projection(projection);
 
+//pulling the data
 d3.json("us.json", function(us) {
   d3.csv("data/cities-visited.csv", function(cities) {
     d3.csv("data/statesvisited.csv", function(statesVisited) {
@@ -45,24 +47,9 @@ var brush = d3
 
 /**
  * Function to draw the map on the page
- * @param {*} us 
- * @param {*} cities 
- * @param {*} statesVisited 
  */
 function drawMap(mapData, cities, statesVisited) {
   var mapGroup = svg.append("g").attr("class", "mapGroup");
-
-  let fillFunction = function(d) {
-    let stateName = stateNames.filter(function (n) { return n.id == d.id })[0].name
-    let statesVisitedNames = statesVisited.map(function (s) { return s.name } );
-    let isVisited = statesVisitedNames.includes(stateName);
-
-    if (isVisited) {
-      return 'blue';
-    } else {
-      return 'gray';
-    }
-  }
 
   mapGroup
     .append("g")
@@ -84,7 +71,7 @@ function drawMap(mapData, cities, statesVisited) {
     .attr("id", "state-borders")
     .attr("d", path);
 
-  var circles = svg
+  var circles = mapGroup
     .selectAll("circle")
     .data(cities)
     .enter()
@@ -96,11 +83,28 @@ function drawMap(mapData, cities, statesVisited) {
     .attr("cy", function(d) {
       return projection([d.lon, d.lat])[1];
     })
-    .attr("r", 2.5);
+    .attr("r", 8);
+
+
+  // zoom method
+  svg.call(d3.zoom().on("zoom", function () {
+    mapGroup.attr("transform", d3.event.transform)
+    svg.attr("translate", d3.event.translate)
+    mapGroup.selectAll("circle")
+             .attr("r", function(d) {
+                  if (d3.event && d3.event.transform.k) {
+                     return 8/d3.event.transform.k;
+                  }
+                  else {
+                   return 8;
+                  }})
+ }))
+.append("g");
 
   svg.append("g").call(brush);
 }
 
+//highlight the corresponding parts on the map
 function highlight() {
 
    // remove any current selection
@@ -109,6 +113,7 @@ function highlight() {
   if (d3.event.selection === null) return;
 
   let [[x0, y0], [x1, y1]] = d3.event.selection;
+  
 
   circles = d3.selectAll("circle");
 
@@ -120,6 +125,7 @@ function highlight() {
       y0 <= projection([d.lon, d.lat])[1] &&
       projection([d.lon, d.lat])[1] <= y1
   );
+
 }
 
 // shows that the brushing functionality has 
@@ -159,6 +165,8 @@ function brushend() {
     let tableData = table()
       .selectionDispatcher(d3.dispatch(dispatchString))
       ("#table", data);
+      
   
     });
+
 })());
