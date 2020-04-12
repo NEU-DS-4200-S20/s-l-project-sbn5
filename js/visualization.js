@@ -50,7 +50,20 @@ var brush = d3
  */
 function drawMap(mapData, cities, statesVisited) {
   var mapGroup = svg.append("g").attr("class", "mapGroup");
-
+ // zoom method
+ svg.call(d3.zoom().on("zoom", function () {
+  mapGroup.attr("transform", d3.event.transform)
+  svg.attr("translate", d3.event.translate)
+  mapGroup.selectAll("circle")
+           .attr("r", function(d) {
+                if (d3.event && d3.event.transform.k) {
+                   return 8/d3.event.transform.k;
+                }
+                else {
+                 return 8;
+                }})
+}))
+.append("g");
   mapGroup
     .append("g")
     // .attr("id", "states")
@@ -62,14 +75,14 @@ function drawMap(mapData, cities, statesVisited) {
     .attr("id", "state-borders")
     .attr("class", "states");
 
-  mapGroup
-    .append("path")
-    .datum(
-      mapData, function(a, b) {
-        return a !== b;
-      })
-    .attr("id", "state-borders")
-    .attr("d", path);
+  // mapGroup
+  //   .append("path")
+  //   .datum(
+  //     mapData, function(a, b) {
+  //       return a !== b;
+  //     })
+  //   .attr("id", "state-borders")
+  //   .attr("d", path);
 
   var circles = mapGroup
     .selectAll("circle")
@@ -78,30 +91,21 @@ function drawMap(mapData, cities, statesVisited) {
     .append("circle")
     .attr("class", "cities")
     .attr("cx", function(d) {
-      return projection([d.lon, d.lat])[0];
-    })
+      if (!projection([d.lon, d.lat])) {
+        return;
+       }
+      return projection([d.lon, d.lat])[0];    })
     .attr("cy", function(d) {
-      return projection([d.lon, d.lat])[1];
-    })
+      if (!projection([d.lon, d.lat])) {
+        return;
+       }
+     return projection([d.lon, d.lat])[1];    })
     .attr("r", 8);
 
 
-  // zoom method
-  svg.call(d3.zoom().on("zoom", function () {
-    mapGroup.attr("transform", d3.event.transform)
-    svg.attr("translate", d3.event.translate)
-    mapGroup.selectAll("circle")
-             .attr("r", function(d) {
-                  if (d3.event && d3.event.transform.k) {
-                     return 8/d3.event.transform.k;
-                  }
-                  else {
-                   return 8;
-                  }})
- }))
-.append("g");
+ 
 
-  svg.append("g").call(brush);
+  mapGroup.append("g").call(brush);
 }
 
 //highlight the corresponding parts on the map
