@@ -1,25 +1,29 @@
-// Immediately Invoked Function Expression to limit access to our 
-// variables and prevent 
+
 ((() => {
+
+// MAP CODE STARTS HERE
 
 // set svg height and width
 var width = 960;
 var height = 500;
 
+//copied over from example code provided in class
 var svg = d3
   .select("#map-container")
   .append("svg")
   .attr("viewBox", [0, 0, width, height])
-  .attr("transform", "translate(-200,0) scale(10 10)")
+  .attr("transform", "translate(-200,0) scale(3 3)")
   //.attr("width", width)
   //.attr("height", height);
 
 var projection = d3
   .geoAlbersUsa()
-  .translate([-1700, height + 550])
-  .scale(7*width);
+  .translate([-1300, height + 400])
+  .scale(6*width);
 
 var path = d3.geoPath().projection(projection);
+
+
 
 //pulling the data
 d3.json("us.json", function(us) {
@@ -27,9 +31,9 @@ d3.json("us.json", function(us) {
     d3.csv("data/statesvisited.csv", function(statesVisited) {
       d3.tsv("data/us-state-names.tsv", function(stateNames) {
         //to select only northeast states in the usa
-        //here ohio and new jersey were omitted as points on the graph, 
+        //here ohio was omitted as points on the graph, 
         //even though they appear on the table because they were outliers 
-        var selectedRegions = [23, 25, 33, 50];  
+        var selectedRegions = [9, 23, 25, 33, 34, 36, 42, 44, 50];  
         var mapData = topojson.feature(us, us.objects.states).features.filter((d) => 
         { 
           return selectedRegions.includes(d.id);
@@ -45,9 +49,7 @@ var brush = d3
   .on("start brush", highlight)
   .on("end", brushend);
 
-/**
- * Function to draw the map on the page
- */
+//function to drawMap within svg element
 function drawMap(mapData, cities, statesVisited) {
   var mapGroup = svg.append("g").attr("class", "mapGroup");
  // zoom method
@@ -84,6 +86,7 @@ function drawMap(mapData, cities, statesVisited) {
   //   .attr("id", "state-borders")
   //   .attr("d", path);
 
+  //draw cities on map with projection
   var circles = mapGroup
     .selectAll("circle")
     .data(cities)
@@ -101,24 +104,20 @@ function drawMap(mapData, cities, statesVisited) {
        }
      return projection([d.lon, d.lat])[1];    })
     .attr("r", 8);
-
-
  
-
+  //calls brush method, highlight and brushend
   mapGroup.append("g").call(brush);
 }
 
+
 //highlight the corresponding parts on the map
 function highlight() {
-
    // remove any current selection
    d3.selectAll(".final").classed("final", false);
 
-  if (d3.event.selection === null) return;
-
+  if (d3.event.selection === null) return; // do nothing
   let [[x0, y0], [x1, y1]] = d3.event.selection;
   
-
   circles = d3.selectAll("circle");
 
   circles.classed(
@@ -135,7 +134,6 @@ function highlight() {
 // shows that the brushing functionality has 
 // been done and keeps track of the number
 // as an output in the console
-
 function brushend() {
    // get all the cities current selected and make it a final selection
    let selection = d3.selectAll(".selected")
@@ -152,11 +150,13 @@ function brushend() {
        return isSelected;
      });
     });
-  console.log("brushed");
 }
 
+// MAP CODE ENDS HERE
 
+// ------------------------------------------------------------------
 
+//TABLE 
   // Load the data from a json file (you can make these using
   // JSON.stringify(YOUR_OBJECT), just remove the surrounding "")
   d3.json("data/memberList.json", (data) => {

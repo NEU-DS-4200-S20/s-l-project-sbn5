@@ -32,7 +32,7 @@
   <!-- Your writeup goes here -->
   <div class = "content-column">
   
-    <h1>Project Team ##SBN5: Distribution of Products/Services of Members: Topic, DS 4200 S20</h1>
+    <h1>Project Team #SBN5: Distribution of Products/Services of Members: DS 4200 S20</h1>
     
     <p><strong>Megha Rao</strong>, <strong>Coleen Ross</strong>, <strong>Omkar Brahme</strong>, <strong>Snowy Chen</strong></p>
     
@@ -60,15 +60,16 @@
       </li>
       <li>
         <p>
-          Select dots by clicking on dragging on map.</p>
+          Highlight the dots on the map by brushing to see the highlighted rows in the table.</p>
       </li>
+      <li><p>
+        Linking is not an available feature at this time. 
+      </p></li>
     </ul>
   </div>
 
   <!-- Your visualization here -->
   <div class="vis-holder">
-    <!-- Change viewbox to whatever you want, e.g. "0 0 1000 6000" This determines your aspect ratio and coordinate system -->    
-    <!-- Delete all the sample SVG code below after the viewbox to before the closing tag. Populate this part of the SVG with D3. -->
     <svg id="map-container"
       preserveAspectRatio="xMidYMid meet" 
       class="marks" 
@@ -99,8 +100,15 @@
     <p><em>Final visualization screenshots (PNG images), design justifications, UI walk-through, and linked presentation slides.</em></p>
 
     <p>One of SBN's core missions is to build a community that can support a culture of sustainability and shopping local. To do this, SBN has a member directory containing information about all buyers, vendors, and other organizations, but they do not have an easy way to look all of their members, especially in regards to their specialty and location.</p>
-    <p>For our project, we decided to create a visualization that allows viewers to 
+    <p>To accomodate towards SBNs expectation, for our project, we decided to create a visualization that allows viewers to 
       where members are located and what the products/services offered are.  </p>
+      <p>For design justifications please take a look at our Design Process section.</p>
+      <h3>Final visualization screenshot:</h3>
+      <p>
+        For our final visualization we have a table and a map. The full table is not shown here due to limited space.
+      </p>
+      <img src = "images/finalVis.png" height =450 width = 600>
+      <h3>UI Walkthrough:</h3>
       <ul>
         <li>
           <p>Our map allows for interactability! Simply highlight the cities on the map by clicking and dragging. Move the box around to select different cities at a time. </p>
@@ -114,18 +122,107 @@
     
 
     <h1>Data Analysis</h1>
-    <p><em>Summary of data, data types, and data preprocessing.</em></p>
 
-    <p><em>Expectation: Data sources match the problem statement and are appropriate. These descriptions should be very explicit so someone could read your page and properly reproduce your results.</em></p>
+      <h3> Summary of Data Provided:</h3>
+        <p>
+          The dataset we were provided initially was not easy to work with. There were a few issues:
+          <li>
+            Data was not presented in a compact manner. Too much clutter.
+          </li>
+          <li>
+            Some columns were unecessary for our visualization.
+          </li>
+          <li>
+            Data was very messy. For example, Product/Services offered were not grouped into categories, making the data not clean and uniform.
+          </li>
+        </p>
+
+        <p> Once we sat down to clean all the data, we were much happier with the results and finalized the specifics of our visualization.</p>
+     
+
+    <h3> Data Types</h3>
+    <p> For the dataset we were mainly dealing wih Strings. This was completely based on the data we were provided.
+    </p>
+      
 
     <h3>Data Preprocessing</h3>
-    <p>The dataset we were given had the information for a little over 100 members. To make the data useable, we had to clean it up and properly categorize each member organization. This required us to research any gaps in the data (for example, organizations that did not have an address/location in the dataset), as well as to categorize each member based on what they sell or are focused on (catering, beverages, consulting, green energy, etc.)</p>
+    <p>The dataset we were given had the information for a little over 100 members. 
+      To make the data usable, we had to clean it up and properly categorize each member organization. 
+      This required us to research any gaps in the data (for example, organizations that did not have an 
+      address/location in the dataset), as well as to categorize each member based on what they sell or 
+      are focused on (catering, beverages, consulting, green energy, etc.)</p>
 
     <h1>Task Analysis</h1>
 
-    <p><em>Summary of task table.</em></p>
+    <h3>Task table</h3>
+    <table>
+      <tr>
+        <th>
+          Index
+        </th>
+        <th>
+          "Domain" Task
+        </th>
+        <th>
+          Analytical Task
+        </th>
+        <th>
+          Search Task
+        </th>
+        <th>
+          Analyze Task
+        </th>
+      </tr>
+      <tr>
+        <th>
+          1. 
+        </th>
+        <th>
+          Seeing the trend of how members have grown consecutively over the years.
+        </th>
+        <th>
+          Summarize
+        </th>
+        <th>
+          Lookup
+        </th>
+        <th>
+          Discover
+        </th>
+      </tr>
+      <tr>
+        <th>
+          2.
+        </th>
+        <th>
 
-    <p><em>Expectation: Clearly describes domain tasks, processes, goals and abstract tasks for domain problems.</em></p>
+Analyzing the density of dots on a geographical map will represent the growing number of members over the years
+
+        </th>
+        <th>
+          Compare
+        </th>
+        <th>
+          Lookup
+        </th>
+        <th>
+          Enjoy
+        </th>
+      </tr>
+    </table>
+
+    <h3>Summary of task table.</h3>
+    <p> Our original task table had a lot more points, but we feel like in our final visualizations
+      we definitely hit these two tasks from our original plans.
+
+      Although we couldn't show the trend of growing members over the years due to data limitation, the spread
+      and density of dots across the map represent the growing number of members over the years
+    </p>
+
+    <p>
+      Our goal after making this task table was to represent the tasks in a nice, easy to read enough manner. 
+      The problems we faced along the way were limitation on available data, coding in D3 experience and time management.
+    </p>
 
     <h1>Design Process</h1>
     
@@ -178,13 +275,21 @@
 
     <h1>Conclusion</h1>
 
-    <p><em>In conclusion, our visualization represents the existing businesses 
-      registered with SBN through a map + table through brushing and linking. 
-      In the future, an interesting feature to add would be to add a filter, 
-      allowing the user to filter by Product/Service. 
-      This would allow for more interactability for the user.
-
-    </em></p>
+    <p>In conclusion, our visualization represents the existing businesses 
+      registered with SBN through a map + table. 
+      If we had more time, we would definitely implement linking. Since the pass/fail policy, no other team members were available 
+      to assist with this, as I had run out of time. </p>
+      <p>
+      In the future, interesting features to add would be:
+      <ul>
+        <li>
+          To add a tooltip. This way, the cities would be more clearly defined, allowing for clarity and transparency for the user.
+        </li>
+        <li>
+          Implement a filter. This would allow the user to filter out cities that are unecessary for their viewing.
+        </li>
+      </ul> 
+    </p>
 
     
     <h1>Acknowledgments</h1>
@@ -202,6 +307,7 @@
           <li><a href = "https://github.com/NEU-DS-4200-S20/assignment-brushing-and-linking-in-d3-raomegha">Brushing and Linking in D3 </a> - Assignment 4</li>
         </ul>
       </li>
+      <li>Aditeya's office hours code</li>
     </ul>
   </div>
   
