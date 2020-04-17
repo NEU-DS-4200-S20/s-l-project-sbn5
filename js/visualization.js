@@ -86,6 +86,7 @@ function drawMap(mapData, cities, statesVisited) {
   //   .attr("id", "state-borders")
   //   .attr("d", path);
 
+  
   //draw cities on map with projection
   var circles = mapGroup
     .selectAll("circle")

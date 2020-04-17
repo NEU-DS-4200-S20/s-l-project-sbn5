@@ -96,4 +96,4 @@ function table() {
     };
   
     return chart;
-  }
+}
